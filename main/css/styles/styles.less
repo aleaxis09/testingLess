@@ -1,3 +1,18 @@
-.test{
-	
+@redText : blue;
+
+.headerTitle{
+	padding-left: 20px;
+	p {
+		color: @redText;
+		padding-left: 50px;
+		font-size: 25px;
+	}
+}
+
+.anotherTitle{
+	.headerTitle;
+	background-color: pink;
+	&:hover{
+		margin-top: 5px;
+	}
 }

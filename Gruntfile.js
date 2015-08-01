@@ -23,7 +23,6 @@ module.exports = function(grunt){
 				configFiles: {
 					files: ['Gruntfile.js', 'main/*'],
 					options: {
-						reload: true,
 						livereload: true
 					}
 				},
@@ -31,7 +30,6 @@ module.exports = function(grunt){
 					files: 'main/css/styles/*.less',
 					tasks: ['less'],
 					options: {
-						reload: true,
 						livereload: true					
 					},
 				},
